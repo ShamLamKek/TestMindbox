@@ -1,0 +1,9 @@
+E:\TestMindbox\TestMindbox\bin\Debug\netcoreapp3.1\TestMindbox.deps.json
+E:\TestMindbox\TestMindbox\bin\Debug\netcoreapp3.1\TestMindbox.dll
+E:\TestMindbox\TestMindbox\bin\Debug\netcoreapp3.1\TestMindbox.pdb
+E:\TestMindbox\TestMindbox\obj\Debug\netcoreapp3.1\TestMindbox.csprojAssemblyReference.cache
+E:\TestMindbox\TestMindbox\obj\Debug\netcoreapp3.1\TestMindbox.AssemblyInfoInputs.cache
+E:\TestMindbox\TestMindbox\obj\Debug\netcoreapp3.1\TestMindbox.AssemblyInfo.cs
+E:\TestMindbox\TestMindbox\obj\Debug\netcoreapp3.1\TestMindbox.csproj.CoreCompileInputs.cache
+E:\TestMindbox\TestMindbox\obj\Debug\netcoreapp3.1\TestMindbox.dll
+E:\TestMindbox\TestMindbox\obj\Debug\netcoreapp3.1\TestMindbox.pdb
