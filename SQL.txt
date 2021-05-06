@@ -1,0 +1,42 @@
+CREATE TABLE Products (
+Id INT IDENTITY PRIMARY KEY,
+Name nvarchar(20)
+);
+
+INSERT INTO Products
+VALUES
+('Beef'),
+('Milk'),
+('Tomato'),
+('Cola');
+
+CREATE TABLE Categories (
+Id INT IDENTITY PRIMARY KEY,
+Name nvarchar(20)
+);
+
+INSERT INTO Categories
+VALUES
+('Meet'),
+('Dairy_produce'),
+('Vegetables');
+
+CREATE TABLE ProductCategories (
+ProductId INT FOREIGN KEY REFERENCES Products(Id),
+CategoryId INT FOREIGN KEY REFERENCES Categories(Id)null,
+Id Int identity primary key
+);
+
+INSERT INTO ProductCategories
+VALUES
+(1, 1),
+(2, 3),
+(3, 3),
+(4,null);
+
+SELECT P.Name, C.Name
+FROM Products P
+LEFT JOIN ProductCategories PC
+ON P.Id = PC.ProductId
+LEFT JOIN Categories C
+ON PC.CategoryId = C.Id;
